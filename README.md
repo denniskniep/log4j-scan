@@ -100,6 +100,12 @@ $ python3 log4j-scan.py -u https://log4j.lab.secbot.local --dns-callback-interac
 $ pip3 install -r requirements.txt
 ```
 
+# Execute with Docker
+
+```shell
+sudo docker build -t log4j-scan .
+sudo docker run -it --rm log4j-scan
+```
 
 # About FullHunt
 
