@@ -38,6 +38,8 @@ usage: log4j-scan.py [-h] [-u URL] [-l USEDLIST] [--request-type REQUEST_TYPE] [
 options:
   -h, --help            show this help message and exit
   -u URL, --url URL     Check a single URL.
+  -p PROXY, --proxy PROXY
+                        Send requests through proxy.
   -l USEDLIST, --list USEDLIST
                         Check a list of URLs.
   --request-type REQUEST_TYPE
